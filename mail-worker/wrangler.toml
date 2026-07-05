@@ -1,4 +1,4 @@
-name = "cloud-mail"
+name = "mail"
 main = "src/index.js"
 compatibility_date = "2025-06-04"
 keep_vars = true
@@ -9,18 +9,18 @@ enabled = true
 #[[d1_databases]]
 #binding = "db"			#d1数据库绑定名默认不可修改
 #database_name = ""		#d1数据库名字
-#database_id = ""		#d1数据库id
+#database_id = "898b7cc7-3a0e-4707-8fa4-d4835a28032a"		#d1数据库id
 
 #[[kv_namespaces]]
 #binding = "kv"			#kv绑定名默认不可修改
-#id = ""					#kv数据库id
+#id = "64279b4476ba455c8498a123e34c0b58"					#kv数据库id
 
 #[[r2_buckets]]
 #binding = "r2"			#r2对象存储绑定名默认不可修改
 #bucket_name = ""		#r2对象存储桶的名字
 
 #[[send_email]]
-#name = "email"			#CF发件, 配置后优先使用
+#name = "mail"			#CF发件, 配置后优先使用
 
 [ai]
 binding = "ai"
